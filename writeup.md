@@ -42,9 +42,10 @@ SpamAssasin.csv
 * **Test Accuracy:** [99.28%]
 * The hight test accuracy implies that the model should generalize well to out of sample data.
 * **Test Loss:** 0.04
-* | Class          | Precision | Recall | F1-Score | Support |
-  | **Legitimate** | 0.99      | 0.99   |  0.99    | 3,947   | 
-  | **Spam**       | 0.99      | 0.99   |  0.99    | 4,302   |
+| Class | Precision | Recall | F1-Score | Support |
+| :--- | :--- | :--- | :--- | :--- |
+| **Legitimate** | 0.99 | 0.99 | 0.99 | 3,947 |
+| **Spam** | 0.99 | 0.99 | 0.99 | 4,302 |
 
 * **High Precision (0.99 for Spam):** This indicates that when the model flags an email as phishing, it is almost certainly correct. This is crucial for user trust; false positives (flagging a boss's email as spam) can be disruptive.
 * **High Recall (0.99 for Spam):** This indicates that the model successfully catches 99% of all actual phishing attacks in the dataset.
