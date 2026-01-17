@@ -5,7 +5,7 @@
 ## Project Overview
 This project uses transfer learning from a BERT transformer model to classify emails as either 'Legitimate' or 'Phishing/Spam' based on the content of their body text. By fine-tuning a pre-trained language model, I attempted to capture semantic cues that distinguish legitimate communication from malicious intent.
 
-## Data preprocessing
+## Data Preprocessing
 **Dataset:** Kaggle Phishing Email Dataset
 * I concatenated the 'body' and 'label' columns from the following CSVs:
 CEAS_08.csv,
