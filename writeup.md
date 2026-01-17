@@ -7,7 +7,7 @@ This project uses transfer learning from a BERT transformer model to classify em
 
 ## Dataset
 **Dataset Used:** Kaggle Phishing Email Dataset
-**Preprocessing:**
+* **Preprocessing:**
 * I concatenated the 'body' and 'label' columns from the following CSVs:
 CEAS_08.csv,
 Enron.csv
