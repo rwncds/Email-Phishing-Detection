@@ -28,10 +28,10 @@ SpamAssasin.csv
 * **Why BERT?** BERT (Bidirectional Encoder Representations from Transformers) captures deep contextual relationships in text, making it highly effective for understanding the nuances between legitimate emails and phishing attempts compared to simpler RNNs.
 
 **Hyperparameters:**
-* **Batch Size:** 32
-* **Learning Rate:** 2e-5
-* **Epochs:** 3
-* **Optimizer:** AdamW (Adam with weight decay fix)
+* **Batch Size:** 32 (recommended by BERT authors for fine-tuning)
+* **Learning Rate:** 2e-5 (smaller learning rate avoids 'catastrophic forgetting')
+* **Epochs:** 3 (didn't need many epochs with transfer learning and AdamW)
+* **Optimizer:** AdamW (Adam with weight decay fix avoids overfitting better and requires fewer epochs to converge so less training time)
 
 ## Results
 **Training Performance:**
