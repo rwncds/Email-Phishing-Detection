@@ -15,11 +15,11 @@ Nazario.csv
 Nigerian_Fraud.csv
 SpamAssasin.csv
 * I did not use phishing_email.csv
-* The text was tokenized using the BERT tokenizer with a maximum sequence length of 128 tokens.
-* This meant the entire body of emails could not be read.
+* The text was tokenized using the BERT tokenizer with a maximum sequence length of 128 tokens
+* This meant the entire body of emails could not be read
 * Reasoning was that spam emails can generally be recognized from the first few sentences
-* So I thought tradeoff of memory efficiency for less data would not be detrimental to performance.
-* Data was split into a 80% training set, 10% validation set, and 10% test set.
+* So I thought tradeoff of memory efficiency for less data would not be detrimental to performance
+* Data was split into a 80% training set, 10% validation set, and 10% test set
 
 ## Model Development
 **Architecture:**
